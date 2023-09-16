@@ -6,6 +6,8 @@ import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.io.Serializable;
+
 /**
  * Os atributos desse modelo foram gerados automaticamente pelo site
  * jsonschema2pojo.org. Para isso, usamos o JSON de retorno da API do ViaCEP.
@@ -19,8 +21,9 @@ import lombok.Setter;
 @Table(name = "TB_ENDERECO")
 @Getter
 @Setter
-public class Endereco
-{
+public class Endereco implements Serializable {
+
+    private static final long serialVersionUID = 1L;
     @Id
     private String cep;
     private String logradouro;

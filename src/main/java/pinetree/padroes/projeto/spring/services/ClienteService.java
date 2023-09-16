@@ -4,6 +4,7 @@ package pinetree.padroes.projeto.spring.services;
 import pinetree.padroes.projeto.spring.models.Cliente;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 
 /**
@@ -16,7 +17,7 @@ public interface ClienteService {
 
     List<Cliente> buscarTodos();
 
-    Cliente buscarPorId(UUID id);
+    Optional<Cliente> buscarPorId(UUID id);
 
     void inserir(Cliente cliente);
 
