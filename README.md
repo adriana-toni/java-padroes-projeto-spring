@@ -24,11 +24,11 @@ e a documentação da API desenvolvida utilizando OpenAPI 3.
   - Corpo básico das requisições:<br>
     ``
     {
-       "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-       "nome": "Márcia",
-       "endereco": {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "nome": "Márcia",
+      "endereco": {
           "cep": "31.140-020"
-       }
+      }
     }
     ``
 ## Características
