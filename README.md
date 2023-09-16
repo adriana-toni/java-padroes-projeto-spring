@@ -22,7 +22,7 @@ e a documentação da API desenvolvida utilizando OpenAPI 3.
   ``http://localhost:8080/swagger-ui/index.html``
 
   - Corpo básico das requisições:<br>
-    ``
+    ```
     {
       "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "nome": "Márcia",
@@ -30,7 +30,7 @@ e a documentação da API desenvolvida utilizando OpenAPI 3.
           "cep": "31.140-020"
       }
     }
-    ``
+    ```
 ## Características
 
 - CRUD completo de cadastro de cliente e endereço
